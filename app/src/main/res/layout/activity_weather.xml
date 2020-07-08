@@ -13,10 +13,11 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"/>
 
-    <android:android.support.v4.widget.DrawerLayout
+    <android.support.v4.widget.DrawerLayout
         android:id="@+id/drawer_layout"
-        layout_width="match_parent"
-        layout_height="match_parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
 
         <android.support.v4.widget.SwipeRefreshLayout
             android:id="@+id/swipe_refresh"
@@ -60,6 +61,6 @@
             android:layout_gravity="start"
             />
 
-    </android:android.support.v4.widget.DrawerLayout>
+    </android.support.v4.widget.DrawerLayout>
 
 </FrameLayout>
