@@ -13,7 +13,7 @@ android {
     }
     signingConfigs{
         config{
-            storeFile file(KEY_PATH)
+            storeFile file('C:/Users/陈/myKey.jks')
             storePassword KEY_PASS
             keyAlias ALIAS_NAME
             keyPassword ALIAS_PASS
